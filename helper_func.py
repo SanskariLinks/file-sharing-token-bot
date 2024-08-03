@@ -113,7 +113,7 @@ async def get_shortlink(url, api, link):
     return link
 
 def get_exp_time(seconds):
-    periods = [('days', 86400), ('hours', 3600), ('mins', 60), ('secs', 1)]
+    periods = [('days', 64800), ('hours', 3600), ('mins', 60), ('secs', 1)]
     result = ''
     for period_name, period_seconds in periods:
         if seconds >= period_seconds:
