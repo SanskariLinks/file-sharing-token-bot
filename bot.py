@@ -56,7 +56,7 @@ class Bot(Client):
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/+ze-2aAIwNW82MzJl")
         self.LOGGER(__name__).info(f""" \n\n       
-(っ◔◡◔)っ ♥ ULTROIDOFFICIAL ♥
+(っ◔◡◔)っ ♥ Sanskari Links♥
 ░╚════╝░░╚════╝░╚═════╝░╚══════╝
                                           """)
         self.username = usr_bot_me.username
