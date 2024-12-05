@@ -30,8 +30,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "ultroidxTeam")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9d4cb5b6c71aea002dabb768c4f82ac48953e4fb")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "seturl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "ef20abbccc962049fd45f68d7874e91a3c445b41")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_T0_D0wnload/11") # shareus ka tut_vid he 
