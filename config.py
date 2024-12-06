@@ -35,21 +35,21 @@ NOTIFICATION = os.environ.get("NOTIFICATION" ,"File will delete after {DELETE_AF
 GET_INFORM = os.environ.get("GET_INFORM" ,"File was deleted after {DELETE_AFTER} seconds. Use the button below to GET FILE AGAIN.")
 
 BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id - dont chnge 
-OWNER = os.environ.get("OWNER", "PhDLust") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "7131513396")) #Owner user id
-OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'PhDLust')
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "ULTROIDOFFICIAL_CHAT") # WITHOUR @
-CHANNEL = os.environ.get("CHANNEL", "ULTROID_OFFICIAL") # WITHOUR @
+OWNER = os.environ.get("OWNER", "hey_ronnie") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "6376864232")) #Owner user id
+OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'hey_ronnie')
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Sanskari_Links69") # WITHOUR @
+CHANNEL = os.environ.get("CHANNEL", "Sanskari_Links1") # WITHOUR @
 
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9f943360c339cec4fed66d9d5cbaa0c2b3d41f81")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linksflys.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "1bc24597379fe55f6f2258d981eef3307e8d544b")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/+PZfHvzjSiZc4OGE1") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_T0_D0wnload/11") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002108419450"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001785013016"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
