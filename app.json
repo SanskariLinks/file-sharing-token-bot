@@ -43,8 +43,8 @@
       "value": "True"
     },
     "VERIFY_EXPIRE":{
-      "description": "yr token timeout in seconds, 86400 = 24h",
-      "value": "86400"
+      "description": "yr token timeout in seconds, 86400 = 18h",
+      "value": "64800"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
