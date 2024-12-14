@@ -43,8 +43,8 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Sanskari_Links69") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "Sanskari_Links1") # WITHOUR @
 
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "681754c5513b5c0801a511e9056531ebc64ade95")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "genzurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "ce56b38a3dde9def1a225ac283da3fded9dcf848")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_T0_D0wnload/11") # shareus ka tut_vid he 
