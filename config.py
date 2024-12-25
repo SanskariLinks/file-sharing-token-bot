@@ -13,17 +13,17 @@ APP_ID = int(os.environ.get("APP_ID", "26930219"))
 API_HASH = os.environ.get("API_HASH", "f61fa0adcd48b6bec464b6866fbd2822")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001842541528"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001401917601"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6376864232"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1809208278"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://jebesa8591:J1emwnTswYPaq81P@cluster0.cbmpkfm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sobowe9677:g5NNHjWheYTsVW6P@cluster0.0mird.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #auto delete
@@ -37,8 +37,8 @@ GET_INFORM = os.environ.get("GET_INFORM" ,"This file will be automatically delet
 
 BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id - dont chnge 
 OWNER = os.environ.get("OWNER", "hey_ronnie") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "6376864232")) #Owner user id
-OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'hey_ronnie')
+OWNER_ID = int(os.environ.get("OWNER_ID", "1809208278")) #Owner user id
+OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'BURGITY')
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Sanskari_Links69") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "Sanskari_Links1") # WITHOUR @
 
