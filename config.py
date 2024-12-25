@@ -36,11 +36,11 @@ NOTIFICATION = os.environ.get("NOTIFICATION" ,"This file will be automatically d
 GET_INFORM = os.environ.get("GET_INFORM" ,"This file will be automatically deleted in 20 minutes(Due to Copyright Issues).")
 
 BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id - dont chnge 
-OWNER = os.environ.get("OWNER", "hey_ronnie") #Owner username
+OWNER = os.environ.get("OWNER", "BURGITY") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "1809208278")) #Owner user id
 OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'BURGITY')
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Sanskari_Links69") # WITHOUR @
-CHANNEL = os.environ.get("CHANNEL", "Sanskari_Links1") # WITHOUR @
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Tharki_Colony_GC") # WITHOUR @
+CHANNEL = os.environ.get("CHANNEL", "TharkiColony") # WITHOUR @
 
 #Shortner (token system) 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "genzurl.com")
