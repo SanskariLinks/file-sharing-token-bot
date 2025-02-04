@@ -16,8 +16,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text=f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n"
                  f"○ Language : <code>Python3</code>\n"
-                 f"○ Library : <a href='https://Phdlust.co/'>Pyrogram asyncio {__version__}</a>\n"
-                 f"○ Source Code : <a href='https://youtu.be/BeNBEYc-q7Y'>Click here</a>\n"
+                 f"○ Library : <a href='http://t.me/tmkclawde'>Pyrogram asyncio {__version__}</a>\n"
+                 f"○ Source Code : <a href='http://t.me/tmkclawde'>Click here</a>\n"
                  f"○ Channel : @{CHANNEL}\n"
                  f"○ Support Group : @{SUPPORT_GROUP}</b>",
             disable_web_page_preview=True,
