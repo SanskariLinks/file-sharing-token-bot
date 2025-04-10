@@ -47,7 +47,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "genzurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "ce56b38a3dde9def1a225ac283da3fded9dcf848")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_T0_D0wnload/11") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/FirstWatchTutorial/2") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", " -1001904606496"))
