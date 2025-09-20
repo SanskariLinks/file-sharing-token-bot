@@ -19,7 +19,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001401917601"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1809208278"))
 
 #Port
-PORT = os.environ.get("PORT", "8585")
+PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
@@ -43,11 +43,11 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Tharki_Colony_GC") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "TharkiColony") # WITHOUR @
 
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "genzurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "ce56b38a3dde9def1a225ac283da3fded9dcf848")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "get2short.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "aa2412f65e9058b87cce348f715201adf31ec91b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/FirstWatchTutorial/2") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/HowTo_WatchVideos/2") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", " -1001904606496"))
