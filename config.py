@@ -32,8 +32,8 @@ NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 1200)) #seconds
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 GET_AGAIN = os.environ.get("GET_AGAIN", False) #ON/OFF
 DELETE_INFORM = os.environ.get("INFORM" , "Your file has been successfully deleted ✅")
-NOTIFICATION = os.environ.get("NOTIFICATION" ,"This file will be automatically deleted in 20 minutes(Due to Copyright Issues).")
-GET_INFORM = os.environ.get("GET_INFORM" ,"This file will be automatically deleted in 20 minutes(Due to Copyright Issues).")
+NOTIFICATION = os.environ.get("NOTIFICATION","<b>📌 This file will be automatically deleted in 20 minutes. (Due to Copyright Issues)</b>")
+GET_INFORM = os.environ.get("GET_INFORM","<b>📌 This file will be automatically deleted in 20 minutes. (Due to Copyright Issues)</b>")
 
 BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id - dont chnge 
 OWNER = os.environ.get("OWNER", "BURGITY") #Owner username
