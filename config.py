@@ -43,8 +43,8 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Tharki_Colony_GC") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "TharkiColony") # WITHOUR @
 
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "get2short.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "aa2412f65e9058b87cce348f715201adf31ec91b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "9d4cb5b6c71aea002dabb768c4f82ac48953e4fb")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/HowTo_WatchVideos/2") # shareus ka tut_vid he 
